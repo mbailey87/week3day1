@@ -9,40 +9,39 @@ body {
     background-color: bisque;
 }
 .header {
+    display: flex;
     width: 100%;
     height: 30px;
     background-color: darkkhaki;
+    justify-content: space-between;
+
 }
 
 .real-finances {
     width: 250px;
     height: 50px;
-    position: relative;
-    float: left;
+    margin-left: 5px;
+
+
 
 }
 .page-links {
-    width: 300px;
+    width: 225px;
     height: 50px;
-    position: relative;
-    float: right;
-
+    margin-right: 5px;
 }
 #centered-containers {
-    position: relative; 
-    clear: both;
-    width: 1030px; 
-    height: 300px;
-    margin: 0 auto; 
-    top: 50%;
-    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    height: 100vh;
 }
 .container {
-    float: left;
+
     width: 250px;
     height: 200px;
     margin-right: 5px;
-    box-sizing: border-box;
     border: 1px solid blue;
     border-radius: 5%;
 }
